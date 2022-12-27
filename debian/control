@@ -2,7 +2,7 @@ Source: py-kms
 Build-Depends: debhelper (>= 11)
 Section: base
 Priority: optional
-Maintainer: Quentin Millerioux <quentin.millerioux@reuniwatt.com>
+Maintainer: Quentin Millerioux <quentin@domain.tld>
 Standards-Version: 1.0.0
 
 Package: py-kms
