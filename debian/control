@@ -1,0 +1,11 @@
+Source: py-kms
+Build-Depends: debhelper (>= 11)
+Section: base
+Priority: optional
+Maintainer: Quentin Millerioux <quentin.millerioux@reuniwatt.com>
+Standards-Version: 1.0.0
+
+Package: py-kms
+Architecture: all
+Depends: python3, python3-flask, python3-pygments, python3-dnspython, python3-tzlocal
+Description: Python KMS emulator

@@ -1,0 +1,13 @@
+[Unit]
+Description=py-kms service
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+EnvironmentFile=/etc/default/py-kms
+WorkingDirectory=/etc/py-kms
+ExecStart=/usr/bin/python3 /usr/share/py-kms/pykms_Server.py $IP $PORT $OPTIONS
+
+[Install]
+WantedBy=multi-user.target
